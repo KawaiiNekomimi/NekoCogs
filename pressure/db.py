@@ -41,8 +41,8 @@ def guilddata(guild):
         "users_joined": [],
         "raid_size": 4,
         "raid_time": 240,
-        "lockdown_duration": 120
+        "lockdown_duration": 120,
         "pressure_decay": 4,
-        "sec_decay": 2,
+        "sec_decay": 2
     }
     
