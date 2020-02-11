@@ -295,7 +295,7 @@ class Pressure(Cog):
             await ctx.send("You lack the permissions to use this command!")
             return
         # ------------------------------------------------------------------------------------------------------
-        if repeat_pressure <= 0:
+        if line_pressure <= 0:
             await ctx.send("Invalid Value. Value must be greater than 0.")
             return
         await self.db_update_guild(ctx.message, "line_pressure", line_pressure)
@@ -313,7 +313,7 @@ class Pressure(Cog):
             await ctx.send("You lack the permissions to use this command!")
             return
         # ------------------------------------------------------------------------------------------------------
-        if repeat_pressure <= 0:
+        if base_pressure <= 0:
             await ctx.send("Invalid Value. Value must be greater than 0.")
             return
         await self.db_update_guild(ctx.message, "base_pressure", base_pressure)
