@@ -1,0 +1,8 @@
+{
+    "author" : ["Neko"],
+    "install_msg" : "Thanks for installing!",
+    "name" : "Pressure",
+    "short" : "Anti-spam system",
+    "description" : "Mute users who send too many messages",
+    "tags" : ["moderation", "pressure"]
+}
