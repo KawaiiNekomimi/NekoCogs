@@ -155,6 +155,7 @@ class Pressure(Cog):
         # ------------------------------------------------------------------------------------------------------
         if not value:
             await ctx.send("Valid fields: `Spam`")
+            return
         #if value.lower() == "raid":
         #    await ctx.send("This function isn't finished yet!")
         if value.lower() == "spam":
